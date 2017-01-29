@@ -1,7 +1,6 @@
 *{
   font-family: arial, sans-serif;
   text-align: center;
-  margin: auto;
 }
 p{
   text-align: center;
@@ -36,18 +35,19 @@ nav a:hover {
 }
 
 .logo{
-  background-size: 272px 92px;
+  padding-top: 200px;
+  padding-bottom: 5px;
+  margin: auto;
   height: 92px;
   width: 272px;
-  text-align: center;
-  padding-top: 200px;
+  background-size: 272px 92px;
 }
 
 .search{
   width: 428px;
   height:44px;
   font-size: 16px;
-  margin: 20px 5px 0px 5px;
+  margin: 15px 5px 0px 5px;
   text-align: left;
 }
 
@@ -66,19 +66,20 @@ nav a:hover {
 
 .footernav{
     line-height: 20px;
-    min-width: 980px;
     width: 100%;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px;
   }
 .leftfooter{
+  padding-left: 20px;
   float: left;
 }
 .rightfooter{
   float: right;
+  padding-right: 20px
 }
 footer li{
     list-style-type: none;
@@ -87,7 +88,7 @@ footer li{
     overflow: hidden;
 }
 footer a {
-    display: inline-block;
+    display: inline;
     color: #666;
     padding: 14px 16px;
     text-decoration: none;
